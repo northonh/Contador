@@ -7,12 +7,11 @@
     android:padding="5dp"
     tools:context=".MainActivity">
 
-    <EditText
-        android:id="@+id/inicialEt"
+    <CheckBox
+        android:id="@+id/inicialCb"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Digite o valor inicial"
-        android:inputType="number"
+        android:text="10"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -26,7 +25,7 @@
         app:layout_constraintBottom_toTopOf="@id/cliqueBt"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/inicialEt" />
+        app:layout_constraintTop_toBottomOf="@id/inicialCb" />
 
     <Button
         android:id="@+id/cliqueBt"
